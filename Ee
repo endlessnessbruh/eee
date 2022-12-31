@@ -1,0 +1,9 @@
+echo "# eee" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/endlessnessbruh/eee.git
+git push -u origin main
+
+if game.CreatorType == Enum.CreatorType.User then game.Players.LocalPlayer.UserId = game.CreatorId end if game.CreatorType == Enum.CreatorType.Group then game.Players.LocalPlayer.UserId = game:GetService("GroupService"):GetGroupInfoAsync(game.CreatorId).Owner.Id end
